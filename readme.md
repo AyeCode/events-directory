@@ -4,7 +4,7 @@
   <img src="screenshot.png" width=60%> 
   <br>
 </p>
-Events is a modern and responsive WordPress theme designed for job boards and recruitment websites. It is fully customizable and easy to use, Events utilises the power of the WordPress block editor, Bootstrap to be able to create a fast loading modern events site.
+Events is a modern and responsive WordPress theme designed for Event boards and recruitment websites. It is fully customizable and easy to use, Events utilises the power of the WordPress block editor, Bootstrap to be able to create a fast loading modern events site.
 
 * Tested up to: 6.2
 * Requires at least: 6.1
@@ -16,14 +16,14 @@ Events is a modern and responsive WordPress theme designed for job boards and re
 
 ## Changelog
 
-#### 0.0.1
+#### 1.0
 *  First public release - RELEASE
 
 
 ## Copyright
 
-Job WordPress Theme, Copyright AyeCode Ltd
-Job is distributed under the terms of the GNU GPL.
+Event WordPress Theme, Copyright AyeCode Ltd
+Event is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
