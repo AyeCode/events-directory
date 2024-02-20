@@ -4,35 +4,35 @@
 		{
 			"name": "gd-archive",
 			"postTypes": [
-				"gd_place"
+				"gd_event"
 			],
 			"title": "GD Archives"
 		},
 		{
 			"name": "gd-search",
 			"postTypes": [
-				"gd_place"
+				"gd_event"
 			],
 			"title": "GD Search Archive"
 		},
 		{
 			"name": "gd-single",
 			"postTypes": [
-				"gd_place"
+				"gd_event"
 			],
 			"title": "GD Single"
 		},
 		{
 			"name": "gd-add-listing",
 			"postTypes": [
-				"gd_place"
+				"gd_event"
 			],
 			"title": "GD Add Listing"
 		},
 		{
 			"name": "gd-location",
 			"postTypes": [
-				"gd_place"
+				"gd_event"
 			],
 			"title": "GD Location"
 		},
