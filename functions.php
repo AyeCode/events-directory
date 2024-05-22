@@ -13,10 +13,9 @@ defined( 'ABSPATH' ) || exit;
  * @since 1.0.0
  */
 
- add_action( 'wp_enqueue_scripts', 'events_enqueue_styles' );
- function events_enqueue_styles() {
-	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/assets/styles/style.css');
-	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+ add_action( 'wp_enqueue_scripts', 'events_directory_enqueue_styles' );
+ function events_directory_enqueue_styles() {
+	wp_enqueue_style( 'events-directory', get_stylesheet_directory_uri() . '/assets/styles/style.css');
  }
 
 /**
@@ -25,9 +24,14 @@ defined( 'ABSPATH' ) || exit;
  * @since 1.0.0
  */
 
-function events_theme_setup()
+function events_directory_theme_setup()
 {
-	load_child_theme_textdomain( 'events', get_stylesheet_directory() . '/languages' );
+	load_child_theme_textdomain( 'events-directory', get_stylesheet_directory() . '/languages' );
+
+	if ( is_admin() ) {
+		// Theme admin stuff
+		require_once 'includes/class-blockstrap-admin-child.php';
+	}
 }
 
-add_action('after_setup_theme', 'events_theme_setup');
+add_action('after_setup_theme', 'events_directory_theme_setup');

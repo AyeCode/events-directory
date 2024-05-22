@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Events - Default Hero Page
- * Slug: events/hero-page-default
+ * Slug: events-directory/hero-page-default
  * Categories: blockstrap-hero-sections
  * Viewport Width: 1280
  */

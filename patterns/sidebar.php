@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Events: Sidebar
- * Slug: events/sidebar
+ * Slug: events-directory/sidebar
  * Block Types: core/post-content
  * Categories: blockstrap-page-content
  * Viewport Width: 1280
